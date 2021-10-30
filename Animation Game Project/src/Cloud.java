@@ -44,7 +44,7 @@ public class Cloud {
 	
 	//Not a perfect collision test, testing if balloon is "stuck"
 	public boolean touches(Balloon player) {
-		return ((player.xpos<this.widthA || player.xpos > this.cloudBstartX) && ((player.ypos >= this.cloudAY)&&(player.ypos<=this.cloudAY)));
+		return ((player.left+12 <this.widthA || player.right-12 > this.cloudBstartX) && ((player.ypos >= this.cloudAY)&&(player.ypos<=this.cloudAY)));
 
 				
 	}
