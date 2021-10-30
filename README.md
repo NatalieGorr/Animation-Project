@@ -14,3 +14,5 @@ Game End
 <img width="392" alt="endScreenSc" src="https://user-images.githubusercontent.com/60367008/126856588-1747b7e8-8aa3-40b3-9033-f8042ed1d8db.png">
 
 
+# Installation:
+Download the code, ensure processing is installed on your machine.
